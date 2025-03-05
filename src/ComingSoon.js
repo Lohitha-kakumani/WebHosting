@@ -6,7 +6,7 @@ const ComingSoon = () => {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.heading}>Coming Soon</h1>
+      <h1 style={styles.heading}><h1>Coming Soon - Updated Version 🚀</h1>      </h1>
       <p style={styles.text}>We're launching in:</p>
       <Countdown date={launchDate} renderer={CountdownRenderer} />
     </div>
